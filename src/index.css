@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.NavLink{ 
+    @apply py-5 hover:bg-green-600 hover:text-teal-100 transition duration-500
+}
+
+.NavLinkActive{ 
+    @apply text-slate-200 bg-green-600 py-5 hover:bg-green-600 transition duration-500
+} 
