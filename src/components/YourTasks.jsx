@@ -106,7 +106,7 @@ const YourTasks = () => {
             return (
               (showFinished || !item.isCompleted) && (
                 <div key={item.id} className="flex gap-7 justify-between ">
-                  <div className="todo flex gap-3">
+                  <div className="todo flex gap-3 items-center">
                     <input type="checkbox" name={item.id} id="" checked={item.isCompleted} onChange={handleCheckbox} className="border rounded-full bg-gray-700 border-emerald-600 cursor-pointer" />
                     <div className={item.isCompleted ? "line-through" : ""}>{item.todo}</div>
                   </div>
